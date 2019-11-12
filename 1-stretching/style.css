@@ -1,0 +1,1591 @@
+@import url(media.css);
+
+/*body{
+  position: relative;
+  background: ##EEF3FA;
+  width: 1200px;
+  height: 3000px;
+  margin: 0 auto;
+}
+.block-one{
+  background: #2C2D31 url(https://pbs.twimg.com/media/Dr_BWmoWwAELtAm.jpg:large);
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  position: relative;
+  float: left;
+}
+h1{
+  color: #000;
+  font: 52px normal Verdane;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+p{
+  text-align: center;
+  margin: 0;
+}
+.p-one{
+  padding-top: 20px;
+}
+.p-two{
+  position:absolute;
+  right:50px;
+  bottom: 200px;
+  font: 20px Tahoma;
+}
+p.p-two span{
+  font-weight: bold;
+  word-spacing: 10px;
+}
+.block-two{
+  position: relative;
+  float: left;
+  background: #FE976E;
+  width: 100%;
+  height: 400px;
+  box-shadow:0 0 30px 0 #000 inset;
+}
+div.left, div.right{
+  position: relative;
+  top: 0;
+  margin: 0;
+}
+p.online-meeting{
+  position: absolute;
+  top: 80px;
+  left: 350px;
+  font: bold 18px Verdana;
+  text-align: left;
+}
+p.five{
+  font: bold 60px Verdana;
+  position: absolute;
+  top: 65px;
+  left: 300px;
+}
+p.clock{
+  position: absolute;
+  top: 80px;
+  right: 300px;
+  font: bold 20px Verdana;
+  word-spacing: 200px
+}
+p.clock span{
+  font: bold 60px Verdana;
+  position: absolute;
+  right: 90px;
+  top: -20px;
+}
+.block-two h2{
+  text-align: center;
+  font: bold 40px Tahoma;
+  padding: 150px;
+}
+#button{
+  position: absolute;
+  bottom:80px;
+  left: 35%;
+  width: 300px;
+  height: 40px;
+  border:none;
+  border-radius: 20px;
+  cursor:pointer;
+  color:#000;
+  text-transform: uppercase;
+  letter-spacing:3px;
+}
+#button:hover,
+.four3 input:hover{
+  background-color:#FF7B5A;
+  box-shadow:0 0 10px 0 #262626;
+  font-weight:bold;
+  letter-spacing:5px;
+}
+.three{
+  background-image: url(https://avatars.mds.yandex.net/get-pdb/231404/0b2750a5-d53b-4d9b-b10a-224392c997de/s1200?webp=false);
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 675px;
+  background-color: #c5c7c4;
+}
+.three p{
+  color: #474749;
+  letter-spacing:1.5px;
+}
+p.class1{
+  position: absolute;
+  top: 30px;
+  left:150px;
+  width: 45%;
+  text-align: justify;
+}
+p.class2{
+  position: absolute;
+  bottom: 160px;
+  right:10px;
+  width: 35%;
+  text-align: justify;
+  margin-right: 20px;
+}
+.four{
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 700px;
+  background-color: #fe976e;
+  box-shadow:0 0 30px 0 #000 inset;
+  padding: 0 0px;
+}
+.four1 h3{
+  margin: 50px 250px 30px;
+  font: 50px 'Marck Script', cursive;
+}
+.four2 div{
+  width: 21.5%;
+  position: relative;
+  float: left;
+  padding: 10px;
+  margin: 0 10px;
+}
+.four p{
+  text-align: justify;
+  font:12px Verdana;
+}
+.four3{
+  position: relative;
+  float: left;
+  height: 300px;
+}
+.four2 img{
+  width: 100px;
+  margin-left: calc(50% - 50px);
+}
+.four3 h2{
+  font: 50px 'Marck Script', cursive;
+  margin: 20px 150px 20px;
+  text-align: center;
+}
+.four3 input{
+  position: absolute;
+  margin-left: calc(50% - 150px);
+  bottom:calc(70px - 0px);
+  width: 300px;
+  height: 40px;
+  border:none;
+  border-radius: 20px;
+  cursor:pointer;
+  color:#000;
+  text-transform: uppercase;
+  letter-spacing:3px;
+}
+.block-five{
+  background-image: url(https://sporteluxe.com/us/wp-content/uploads/sites/7/2018/02/WellnessDirectory1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 712px;
+  position: relative;
+  float: left;
+}
+.block-five p{
+  color:#fff;
+  font: 14px Verdana;
+  padding-bottom: 20px;
+}
+.block-five h2{
+  font: 50px 'Marck Script', cursive;
+  color:#fff;
+  margin: 60px 270px 40px;
+}
+.bf-1{
+  position:absolute;
+  right: 150px;
+  top: 200px;
+  padding: 10px 20px 0;
+  border-right: 3px solid #C93E07;
+}
+.bf-1 p{
+  text-align: right;
+}
+.bf-2{
+  position:absolute;
+  left: 100px;
+  bottom: 150px;
+  padding: 10px 20px 0;
+  border-left: 3px solid #C93E07;
+}
+.bf-2 p{
+  text-align: left;
+}
+*/
+
+
+/*FLEXBOX*/
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.flex-content {
+	display: flex;
+	flex-direction: column;
+}
+
+/*BLOCK-1*/
+
+.block-1 {
+	background: #2C2D31 url(https://pbs.twimg.com/media/Dr_BWmoWwAELtAm.jpg:large);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-position: center center;
+	height: 100vh;
+	padding: 50px 0 0;
+}
+
+h1 {
+	color: #000;
+	font: 52px normal Verdane;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 20px;
+	padding: 0;
+}
+
+.block-1 .footer {
+	align-self: center;
+	margin-bottom: 30px;
+}
+
+p {
+	text-align: center;
+	margin: 0;
+}
+
+.p-2 {
+	font: 16px Tahoma;
+}
+
+p.p-2 span {
+	font-weight: bold;
+	word-spacing: 10px;
+}
+
+/*BLOCK-2*/
+
+.block-2 {
+	display: flex;
+	background: #FE976E;
+	width: 100%;
+	height: 400px;
+	box-shadow: 0 0 30px 0 #000 inset;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 50px 0;
+}
+
+.online-meeting-top {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	font: bold 18px Verdana;
+	width: 50vh;
+}
+
+.online-meeting-top p {
+	text-align: left;
+}
+
+.online-meeting-top p span {
+	font: bold 60px Verdana;
+
+}
+
+.block-2 h2 {
+	text-align: center;
+	font: bold 40px Tahoma;
+}
+
+#button {
+	width: 300px;
+	height: 40px;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+	color: #000;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+#button:hover,
+.four3 input:hover {
+	background-color: #FF7B5A;
+	box-shadow: 0 0 10px 0 #262626;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+
+/*BLOCK-3*/
+
+.block-3 {
+	background-image: url(https://avatars.mds.yandex.net/get-pdb/231404/0b2750a5-d53b-4d9b-b10a-224392c997de/s1200?webp=false);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: #c5c7c4;
+	height: 100vh;
+}
+
+.block-3 p {
+	color: #474749;
+	letter-spacing: 1.5px;
+}
+
+p.class1 {
+	text-align: justify;
+	margin: 30px 0 0 100px;
+	align-self: flex-start;
+	width: 50%;
+}
+
+p.class2 {
+	width: 35%;
+	text-align: justify;
+	margin: 0 30px 200px;
+	align-self: flex-end;
+}
+
+
+/*BLOCK-4*/
+
+.block-4 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #fe976e;
+	box-shadow: 0 0 30px 0 #000 inset;
+	padding: 50px 30px;
+}
+
+.four-1 h3 {
+	font: 50px 'Marck Script', cursive;
+	padding: 0;
+	margin: 0;
+}
+
+.four-2 {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.four-2 div {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.four-2 div p {
+	text-align: justify;
+	font: 12px Verdana;
+}
+
+.four-2 img {
+	width: 100px;
+	margin-bottom: 20px;
+}
+
+.four-3 h2 {
+	font: 50px 'Marck Script', cursive;
+	margin: 0 150px 0;
+	padding: 0;
+	text-align: center;
+}
+
+.block-4 input {
+	width: 300px;
+	height: 40px;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+	color: #000;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+/*BLOCK-5*/
+
+.block-5 {
+	background-image: url(https://sporteluxe.com/us/wp-content/uploads/sites/7/2018/02/WellnessDirectory1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.block-5 p {
+	color: #fff;
+	font: 14px Verdana;
+	padding-bottom: 20px;
+}
+
+.block-5 h2 {
+	font: 50px 'Marck Script', cursive;
+	color: #fff;
+	margin: 50px 300px 0;
+}
+
+.bf-1 {
+	margin: 110px 300px 0 0;
+	padding: 10px 20px 0;
+	border-right: 3px solid #C93E07;
+}
+
+.bf-1 p {
+	text-align: right;
+}
+
+.bf-2 {
+	margin: 80px 80px 0;
+	padding: 10px 20px 0;
+	border-left: 3px solid #C93E07;
+}
+
+.bf-2 p {
+	text-align: left;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 319.98px) {
+	html {
+		overflow-x: hidden;
+	}
+
+	/*BLOCK-1*/
+	.block-1 {
+		height: 100vh;
+		padding: 20px 0 0;
+	}
+
+	h1 {
+		font-size: 25px;
+	}
+
+	.block-1 .footer {
+		align-self: center;
+		margin-bottom: 23px;
+	}
+
+	.p-2 {
+		font: 14px Tahoma;
+	}
+
+
+	/*BLOCK-2*/
+	.block-2 {
+		padding: 40px 0;
+	}
+
+	.online-meeting-top {
+		font: bold 14px Verdana;
+
+	}
+
+	.online-meeting-top p {
+		text-align: left;
+	}
+
+	.online-meeting-top p span {
+		font: bold 40px Verdana;
+
+	}
+
+	.block-2 h2 {
+		font: bold 30px Tahoma;
+	}
+
+	#button {
+		width: 250px;
+
+	}
+
+	/*BLOCK-3*/
+
+	.block-3 {
+		padding: 10px;
+
+	}
+
+	.block-3 p {
+		letter-spacing: normal;
+	}
+
+	p.class1 {
+		margin: 0;
+		align-self: center;
+		width: 100%;
+		font-size: 10px;
+
+	}
+
+	p.class2 {
+		margin: 0;
+		align-self: center;
+		width: 100%;
+		font-size: 10px;
+	}
+
+	/*BLOCK-4*/
+
+	.block-4 {
+
+		padding: 20px;
+	}
+
+	.four-1 h3 {
+		font: 25px 'Marck Script', cursive;
+	}
+
+	.four-2 {
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.four-2 div {
+
+		align-self: flex-start;
+
+	}
+
+	.four-2 div p {
+		font: 10px Verdana;
+	}
+
+	.four-2 img {
+		width: 70px;
+		margin-bottom: 10px;
+	}
+
+	.four-3 h2 {
+		font: 25px 'Marck Script', cursive;
+		margin: 0;
+	}
+
+	.block-4 input {
+		width: 250px;
+		margin: 30px 0;
+	}
+
+	/*BLOCK-5*/
+
+
+	.block-5 h2 {
+		font: 25px 'Marck Script', cursive;
+		margin: 10px;
+	}
+
+	.block-5 p {
+		font: 11px Verdana;
+		padding-bottom: 10px;
+	}
+
+	.bf-1 {
+		margin: 0 10px 0 0;
+		padding: 5px 10px 0 0;
+		border-right: 2px solid #C93E07;
+		order: 1;
+
+	}
+
+	.bf-1 p {
+		text-align: right;
+	}
+
+	.bf-2 {
+		margin: 5px 0 30px 10px;
+		padding: 5px 0 0 10px;
+		border-left: 2px solid #C93E07;
+	}
+
+	.bf-2 p {
+		text-align: left;
+	}
+
+
+}
+
+/* Smartphones (вертикальная и горизонтальная ориентация) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+	html {
+		overflow-x: hidden;
+	}
+
+	/*BLOCK-1*/
+	.block-1 {
+		height: 100vh;
+		padding: 20px 0 0;
+	}
+
+	h1 {
+		font-size: 25px;
+	}
+
+	.block-1 .footer {
+		align-self: center;
+		margin-bottom: 23px;
+	}
+
+	.p-2 {
+		font: 14px Tahoma;
+	}
+
+
+	/*BLOCK-2*/
+	.block-2 {
+		padding: 40px 0;
+	}
+
+	.online-meeting-top {
+		font: bold 14px Verdana;
+
+	}
+
+	.online-meeting-top p {
+		text-align: left;
+	}
+
+	.online-meeting-top p span {
+		font: bold 40px Verdana;
+
+	}
+
+	.block-2 h2 {
+		font: bold 30px Tahoma;
+	}
+
+	#button {
+		width: 250px;
+
+	}
+
+	/*BLOCK-3*/
+
+	.block-3 {
+		padding: 10px;
+
+	}
+
+	.block-3 p {
+		letter-spacing: normal;
+	}
+
+	p.class1 {
+		margin: 0;
+		align-self: center;
+		width: 100%;
+		font-size: 10px;
+
+	}
+
+	p.class2 {
+		margin: 0;
+		align-self: center;
+		width: 100%;
+		font-size: 10px;
+	}
+
+	/*BLOCK-4*/
+
+	.block-4 {
+
+		padding: 20px;
+	}
+
+	.four-1 h3 {
+		font: 25px 'Marck Script', cursive;
+	}
+
+	.four-2 {
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.four-2 div {
+
+		align-self: flex-start;
+
+	}
+
+	.four-2 div p {
+		font: 10px Verdana;
+	}
+
+	.four-2 img {
+		width: 70px;
+		margin-bottom: 10px;
+	}
+
+	.four-3 h2 {
+		font: 25px 'Marck Script', cursive;
+		margin: 0;
+	}
+
+	.block-4 input {
+		width: 250px;
+		margin: 30px 0;
+	}
+
+	/*BLOCK-5*/
+
+
+	.block-5 h2 {
+		font: 25px 'Marck Script', cursive;
+		margin: 10px;
+	}
+
+	.block-5 p {
+		font: 11px Verdana;
+		padding-bottom: 10px;
+	}
+
+	.bf-1 {
+		margin: 0 10px 0 0;
+		padding: 5px 10px 0 0;
+		border-right: 2px solid #C93E07;
+		order: 1;
+
+	}
+
+	.bf-1 p {
+		text-align: right;
+	}
+
+	.bf-2 {
+		margin: 5px 0 30px 10px;
+		padding: 5px 0 0 10px;
+		border-left: 2px solid #C93E07;
+	}
+
+	.bf-2 p {
+		text-align: left;
+	}
+}
+
+/* Smartphones (горизонтальная) ----------- */
+
+/* Smartphones (вертикальная) ----------- */
+@media only screen and (min-width: 320px) {
+	html {
+		overflow-x: hidden;
+	}
+
+	/*BLOCK-1*/
+	.block-1 {
+		height: 100vh;
+		padding: 20px 0 0;
+	}
+
+	h1 {
+		font-size: 25px;
+	}
+
+	.block-1 .footer {
+		align-self: center;
+		margin-bottom: 23px;
+	}
+
+	.p-2 {
+		font: 14px Tahoma;
+	}
+
+
+	/*BLOCK-2*/
+	.block-2 {
+		padding: 0;
+		height: 100vh;
+	}
+
+	.online-meeting-top {
+		font: bold 14px Verdana;
+
+	}
+
+	.online-meeting-top p {
+		text-align: left;
+	}
+
+	.online-meeting-top p span {
+		font: bold 40px Verdana;
+
+	}
+
+	.block-2 h2 {
+		font: bold 30px Tahoma;
+	}
+
+	#button {
+		width: 250px;
+
+	}
+
+	/*BLOCK-3*/
+
+	.block-3 {
+		padding: 10px;
+		height: 100vh;
+	}
+
+	.block-3 p {
+		letter-spacing: normal;
+	}
+
+	p.class1 {
+		margin: 0;
+		align-self: center;
+		width: 100%;
+		font-size: 10px;
+
+	}
+
+	p.class2 {
+		margin: 0;
+		align-self: center;
+		width: 100%;
+		font-size: 10px;
+	}
+
+	/*BLOCK-4*/
+
+	.block-4 {
+		padding: 20px 20px 0;
+	}
+
+	.four-1 h3 {
+		font: 25px 'Marck Script', cursive;
+	}
+
+	.four-2 {
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.four-2 div {
+
+		align-self: flex-start;
+
+	}
+
+	.four-2 div p {
+		font: 10px Verdana;
+	}
+
+	.four-2 img {
+		width: 70px;
+		margin-bottom: 10px;
+	}
+
+	.four-3 h2 {
+		font: 25px 'Marck Script', cursive;
+		margin: 0;
+	}
+
+	.block-4 input {
+		width: 250px;
+		margin: 30px 0;
+	}
+
+	/*BLOCK-5*/
+
+	.block-5 {
+		height: 100vh;
+	}
+
+	.block-5 h2 {
+		font: 25px 'Marck Script', cursive;
+		margin: 10px;
+	}
+
+	.block-5 p {
+		font: 11px Verdana;
+		padding-bottom: 10px;
+	}
+
+	.bf-1 {
+		margin: 0 10px 0 0;
+		padding: 5px 10px 0 0;
+		border-right: 2px solid #C93E07;
+		order: 1;
+
+	}
+
+	.bf-1 p {
+		text-align: right;
+	}
+
+	.bf-2 {
+		margin: 5px 0 30px 10px;
+		padding: 5px 0 0 10px;
+		border-left: 2px solid #C93E07;
+	}
+
+	.bf-2 p {
+		text-align: left;
+	}
+}
+
+/* iPads (вертикальная и горизонтальная) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	html {
+		overflow-x: hidden;
+	}
+
+	/*BLOCK-1*/
+	.block-1 {
+		height: 100vh;
+		padding: 20px 0 0;
+	}
+
+	h1 {
+		font-size: 50px;
+	}
+
+	.block-1 .footer {
+		align-self: center;
+		margin-bottom: 50px;
+	}
+
+	.p-2 {
+		font: 16px Tahoma;
+	}
+
+
+	/*BLOCK-2*/
+	.block-2 {
+		padding: 0;
+		height: 100vh;
+	}
+
+	.online-meeting-top {
+		font: bold 20px Verdana;
+
+	}
+
+	.online-meeting-top p {
+		text-align: left;
+	}
+
+	.online-meeting-top p span {
+		font: bold 100px Verdana;
+
+	}
+
+	.block-2 h2 {
+		font: bold 50px Tahoma;
+	}
+
+	#button {
+		width: 300px;
+
+	}
+
+	/*BLOCK-3*/
+
+	.block-3 {
+		padding: 30px;
+		height: 100vh;
+	}
+
+	.block-3 p {
+		letter-spacing: 1px;
+	}
+
+	p.class1 {
+		margin: 0;
+		align-self: center;
+		width: 100%;
+		font-size: 16px;
+
+	}
+
+	p.class2 {
+		margin: 0;
+		align-self: center;
+		width: 100%;
+		font-size: 16px;
+	}
+
+	/*BLOCK-4*/
+
+	.block-4 {
+		padding: 50px 20px 0;
+	}
+
+	.four-1 h3 {
+		font: 50px 'Marck Script', cursive;
+	}
+
+	.four-2 {
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.four-2 div {
+		align-self: flex-start;
+	}
+
+	.four-2 div p {
+		font: 14px Verdana;
+	}
+
+	.four-2 img {
+		width: 100px;
+		margin-bottom: 10px;
+	}
+
+	.four-3 h2 {
+		font: 50px 'Marck Script', cursive;
+		margin: 0;
+	}
+
+	.block-4 input {
+		width: 250px;
+		margin: 30px 0 50px;
+	}
+
+	/*BLOCK-5*/
+
+	.block-5 {
+		height: 100vh;
+	}
+
+	.block-5 h2 {
+		font: 50px 'Marck Script', cursive;
+		margin: 10px 0 0 20px;
+	}
+
+	.block-5 p {
+		font: 14px Verdana;
+		padding-bottom: 10px;
+	}
+
+	.bf-1 {
+		margin: 100px 20px 0 0;
+		padding: 5px 10px 0 0;
+		border-right: 2px solid #C93E07;
+		order: 1;
+
+	}
+
+	.bf-1 p {
+		text-align: right;
+	}
+
+	.bf-2 {
+		margin: 90px 0 30px 20px;
+		padding: 5px 0 0 10px;
+		border-left: 2px solid #C93E07;
+	}
+
+	.bf-2 p {
+		text-align: left;
+	}
+}
+
+/* iPads (горизонтальная) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	html {
+		overflow-x: hidden;
+	}
+
+	/*BLOCK-1*/
+	.block-1 {
+		height: 100vh;
+		padding: 20px 0 0;
+	}
+
+	h1 {
+		font-size: 45px;
+	}
+
+	.block-1 .footer {
+		align-self: center;
+		margin-bottom: 70px;
+	}
+
+	.p-2 {
+		font: 14px Tahoma;
+	}
+
+
+	/*BLOCK-2*/
+	.block-2 {
+		padding: 0;
+		height: 100vh;
+	}
+
+	.online-meeting-top {
+		font: bold 14px Verdana;
+
+	}
+
+	.online-meeting-top p {
+		text-align: left;
+	}
+
+	.online-meeting-top p span {
+		font: bold 40px Verdana;
+
+	}
+
+	.block-2 h2 {
+		font: bold 30px Tahoma;
+	}
+
+	#button {
+		width: 250px;
+
+	}
+
+	/*BLOCK-3*/
+
+	.block-3 {
+		padding: 10px;
+		height: 100vh;
+	}
+
+	.block-3 p {
+		letter-spacing: normal;
+	}
+
+	p.class1 {
+		margin: 0;
+		align-self: center;
+		width: 100%;
+		font-size: 10px;
+
+	}
+
+	p.class2 {
+		margin: 0;
+		align-self: center;
+		width: 100%;
+		font-size: 10px;
+	}
+
+	/*BLOCK-4*/
+
+	.block-4 {
+		padding: 20px 20px 0;
+	}
+
+	.four-1 h3 {
+		font: 25px 'Marck Script', cursive;
+	}
+
+	.four-2 {
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.four-2 div {
+
+		align-self: flex-start;
+
+	}
+
+	.four-2 div p {
+		font: 10px Verdana;
+	}
+
+	.four-2 img {
+		width: 70px;
+		margin-bottom: 10px;
+	}
+
+	.four-3 h2 {
+		font: 25px 'Marck Script', cursive;
+		margin: 0;
+	}
+
+	.block-4 input {
+		width: 250px;
+		margin: 30px 0;
+	}
+
+	/*BLOCK-5*/
+
+	.block-5 {
+		height: 100vh;
+	}
+
+	.block-5 h2 {
+		font: 25px 'Marck Script', cursive;
+		margin: 10px;
+	}
+
+	.block-5 p {
+		font: 11px Verdana;
+		padding-bottom: 10px;
+	}
+
+	.bf-1 {
+		margin: 0 10px 0 0;
+		padding: 5px 10px 0 0;
+		border-right: 2px solid #C93E07;
+		order: 1;
+
+	}
+
+	.bf-1 p {
+		text-align: right;
+	}
+
+	.bf-2 {
+		margin: 5px 0 30px 10px;
+		padding: 5px 0 0 10px;
+		border-left: 2px solid #C93E07;
+	}
+
+	.bf-2 p {
+		text-align: left;
+	}
+}
+
+
+/* iPads (вертикальная) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1023.98px) and (orientation: portrait) {
+	html {
+		overflow-x: hidden;
+	}
+
+	/*BLOCK-1*/
+	.block-1 {
+		height: 100vh;
+		padding: 20px 0 0;
+	}
+
+	h1 {
+		font-size: 50px;
+	}
+
+	.block-1 .footer {
+		align-self: center;
+		margin-bottom: 70px;
+	}
+
+
+	.p-2 {
+		font: 16px Tahoma;
+	}
+
+
+	/*BLOCK-2*/
+	.block-2 {
+		padding: 0;
+		height: 100vh;
+	}
+
+	.online-meeting-top {
+		font: bold 20px Verdana;
+
+	}
+
+	.online-meeting-top p {
+		text-align: left;
+	}
+
+	.online-meeting-top p span {
+		font: bold 100px Verdana;
+
+	}
+
+	.block-2 h2 {
+		font: bold 50px Tahoma;
+	}
+
+	#button {
+		width: 300px;
+
+	}
+
+	/*BLOCK-3*/
+
+	.block-3 {
+		padding: 10px;
+		height: 100vh;
+	}
+
+	.block-3 p {
+		letter-spacing: normal;
+	}
+
+	p.class1 {
+		margin: 0;
+		align-self: center;
+		width: 100%;
+		font-size: 16px;
+
+	}
+
+	p.class2 {
+		margin: 0;
+		align-self: center;
+		width: 100%;
+		font-size: 16px;
+	}
+
+	/*BLOCK-4*/
+
+	.block-4 {
+		padding: 50px 20px 0;
+	}
+
+	.four-1 h3 {
+		font: 50px 'Marck Script', cursive;
+	}
+
+	.four-2 {
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.four-2 div {
+		align-self: flex-start;
+	}
+
+	.four-2 div p {
+		font: 14px Verdana;
+	}
+
+	.four-2 img {
+		width: 100px;
+		margin-bottom: 10px;
+	}
+
+	.four-3 h2 {
+		font: 50px 'Marck Script', cursive;
+		margin: 0;
+	}
+
+	.block-4 input {
+		width: 250px;
+		margin: 30px 0 50px;
+	}
+
+	/*BLOCK-5*/
+
+	.block-5 {
+		height: 100vh;
+	}
+
+	.block-5 h2 {
+		font: 50px 'Marck Script', cursive;
+		margin: 10px 0 0 50px;
+	}
+
+	.block-5 p {
+		font: 14px Verdana;
+		padding-bottom: 10px;
+	}
+
+	.bf-1 {
+		margin: 50px 30px 0 0;
+		padding: 5px 10px 0 0;
+		border-right: 2px solid #C93E07;
+		order: 1;
+	}
+
+	.bf-1 p {
+		text-align: right;
+	}
+
+	.bf-2 {
+		margin: 50px 0 0 30px;
+		padding: 5px 0 0 10px;
+		border-left: 2px solid #C93E07;
+	}
+
+	.bf-2 p {
+		text-align: left;
+	}
+}
+
+/* Большие экраны ----------- */
+@media only screen and (min-width: 1024px) {
+	html {
+		overflow-x: hidden;
+	}
+
+	/*BLOCK-1*/
+
+	.block-1 {
+
+		height: 100vh;
+		padding: 50px 0 0;
+	}
+
+	h1 {
+		font-size: 45px;
+	}
+
+	.block-1 .footer {
+		align-self: center;
+		margin-bottom: 70px;
+	}
+
+
+	.p-2 {
+		font: 16px Tahoma;
+	}
+}
+
+
+/*BLOCK-2*/
+.block-2 {
+	padding: 0;
+	height: 100vh;
+}
+
+.online-meeting-top {
+	font: bold 20px Verdana;
+
+}
+
+.online-meeting-top p {
+	text-align: left;
+}
+
+.online-meeting-top p span {
+	font: bold 100px Verdana;
+
+}
+
+.block-2 h2 {
+	font: bold 50px Tahoma;
+}
+
+#button {
+	width: 300px;
+
+}
+
+/*BLOCK-3*/
+
+.block-3 {
+	padding: 10px;
+	height: 100vh;
+}
+
+.block-3 p {
+	letter-spacing: normal;
+}
+
+p.class1 {
+	margin: 0;
+	align-self: center;
+	width: 100%;
+	font-size: 16px;
+
+}
+
+p.class2 {
+	margin: 0;
+	align-self: center;
+	width: 100%;
+	font-size: 16px;
+}
+
+/*BLOCK-4*/
+
+.block-4 {
+	padding: 50px 20px 0;
+}
+
+.four-1 h3 {
+	font: 50px 'Marck Script', cursive;
+}
+
+.four-2 {}
+
+.four-2 div {
+
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.four-2 div p {
+	font: 14px Verdana;
+}
+
+.four-2 img {
+	width: 100px;
+	margin-bottom: 10px;
+}
+
+.four-3 h2 {
+	font: 50px 'Marck Script', cursive;
+	margin: 0;
+}
+
+.block-4 input {
+	width: 250px;
+	margin: 30px 0 50px;
+}
+
+/*BLOCK-5*/
+
+.block-5 {
+	height: 100vh;
+}
+
+.block-5 h2 {
+	font: 50px 'Marck Script', cursive;
+	margin: 10px 0 0 250px;
+}
+
+.block-5 p {
+	font: 14px Verdana;
+	padding-bottom: 10px;
+}
+
+.bf-1 {
+	margin: 100px 50px 0 0;
+	padding: 5px 10px 0 0;
+	border-right: 2px solid #C93E07;
+	order: 0;
+}
+
+.bf-1 p {
+	text-align: right;
+}
+
+.bf-2 {
+	margin: 150px 0 0 50px;
+	padding: 5px 0 0 10px;
+	border-left: 2px solid #C93E07;
+}
+
+.bf-2 p {
+	text-align: left;
+}
+
+}
